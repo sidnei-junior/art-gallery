@@ -1,0 +1,11 @@
+.project {
+    background-color: #d4e9f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project img {
+    width: 70%;
+}

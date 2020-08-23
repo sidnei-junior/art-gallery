@@ -16,37 +16,37 @@ function App() {
   const projects = {
     dayOne: [
       {
-        img: 'img.png',
+        img: '1.jpg',
         title: 'teste',
         description: "description"
       },
       {
-        img: 'img.png',
+        img: '2.jpg',
         title: '2',
         description: "description"
       },
       {
-        img: 'img.png',
+        img: '3.jpg',
         title: 3,
         description: "description"
       },
       {
-        img: 'img.png',
+        img: '4.jfif',
         title: '4',
         description: "description"
       },
       {
-        img: 'img.png',
+        img: '5.jpg',
         title: 5,
         description: "description"
       },
       {
-        img: 'img.png',
+        img: '6.jpg',
         title: '6',
         description: "description"
       },
       {
-        img: 'img.png',
+        img: '7.jpg',
         title: 7,
         description: "description"
       },
@@ -84,7 +84,7 @@ function App() {
     dayTwo: []
   };
   return (
-    <div className='App'>
+    <div className='App container'>
       <BrowserRouter>
         <MainMenu />
         <EventDescription />

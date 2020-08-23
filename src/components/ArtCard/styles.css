@@ -1,11 +1,15 @@
+.ArtCard {
+    margin: 1.5%;
+    width: 17%;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
 .ArtCard a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
-    /* border: black 1px solid; */
-    margin: 1.5%;
     text-decoration: none;
     color: #fff;
 }
@@ -21,5 +25,6 @@
 
 .ArtCard img {
     border-style: none;
-    width: 180px;
+    width: 100%;
+    height: 180px;
 }
