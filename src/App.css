@@ -1,0 +1,13 @@
+.App {
+  /* background-color: crimson; */
+  width: 60%;
+  margin: auto;
+}
+
+.Exposure {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}

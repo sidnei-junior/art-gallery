@@ -1,0 +1,10 @@
+.ArtCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border: black 1px solid;
+    margin: 1.5%;
+
+}
