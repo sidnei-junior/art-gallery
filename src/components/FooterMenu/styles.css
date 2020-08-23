@@ -1,3 +1,17 @@
 .FooterMenu {
     display: flex;
+    padding: 5px 20px ;
+    color: white;
+}
+
+.FooterMenu h1 {
+    text-align: center;
+}
+
+.FooterMenu p {
+    text-align: justify;
+}
+
+.FooterDescription {
+    margin-right: 80px;
 }
