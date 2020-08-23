@@ -4,7 +4,7 @@ import logo from './logo.jpeg';
 
 function MainMenu() {
     return (
-        <nav>
+        <nav className="MainMenu">
             <div className='divMenu'>
                 <img src={logo} />
                 <h1>Museu do seminário científico</h1>

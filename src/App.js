@@ -5,6 +5,7 @@ import MainMenu from './components/MainMenu';
 import ArtCard from './components/ArtCard';
 import FooterMenu from './components/FooterMenu';
 import EventDescription from './components/EventDescription';
+import BackgroundDetail from './components/BackgroundDetail';
 
 
 
@@ -21,6 +22,7 @@ function App() {
       ))}
       </div>
       <FooterMenu />
+      <BackgroundDetail />
     </div>
   );
 }
