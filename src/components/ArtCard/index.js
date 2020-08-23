@@ -1,11 +1,14 @@
 import React from 'react';
 import './styles.css';
+import { Link } from 'react-router-dom'
 
-function ArtCard( {imgName} ) {
+function ArtCard( { imgName, title, id } ) {
     return (
-        <div class='ArtCard'>
-            <img src={`./arts/${imgName}`} />
-            <h1>Título</h1>
+        <div className='ArtCard'>
+            <Link to={`${id}`}>
+                <img src={`./arts/${imgName}`} alt={`Imagem do projeto ${title}`}/>
+                <h1>{ title }</h1>
+            </Link>
         </div>
     )
 }
