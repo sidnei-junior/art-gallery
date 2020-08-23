@@ -1,13 +1,16 @@
 .App {
   width: 60%;
-  margin: auto;
+  margin: 30px auto;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
 .Exposure {
-  background-color: cadetblue;
+  background-color: #d4e9f5;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+}
+
+html {
+  background-color: #2eb1ff;
 }

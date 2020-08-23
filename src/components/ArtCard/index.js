@@ -3,7 +3,7 @@ import './styles.css';
 
 function ArtCard( {imgName} ) {
     return (
-        <div class='ArtCard'>
+        <div className='ArtCard'>
             <img src={`./arts/${imgName}`} />
             <h1>Título</h1>
         </div>
