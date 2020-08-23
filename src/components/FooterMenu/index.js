@@ -4,7 +4,7 @@ import './styles.css';
 function FooterMenu() {
     return (
         <div className='FooterMenu'>
-            <div>
+            <div className='FooterDescription'>
                 <h1>Museu do Seminário Científico</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis neque, consectetur non purus eget, pellentesque viverra massa. 

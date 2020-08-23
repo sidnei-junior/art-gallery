@@ -5,6 +5,8 @@ import './App.css';
 
 import MainMenu from './components/MainMenu';
 import FooterMenu from './components/FooterMenu';
+import EventDescription from './components/EventDescription';
+import BackgroundDetail from './components/BackgroundDetail';
 
 import Home from './pages/Home';
 import Project from './pages/Project';
@@ -85,9 +87,11 @@ function App() {
     <div className='App'>
       <BrowserRouter>
         <MainMenu />
+        <EventDescription />
         <Route exact path = "/" render={(props) => <Home {...props} projects={projects[day]} />} />
         <Route path = "/:id" render={(props) => <Project {...props} projects={projects[day]} />} />
         <FooterMenu />
+        <BackgroundDetail />
       </BrowserRouter>
     </div>
   );

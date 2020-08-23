@@ -1,11 +1,16 @@
 nav {
-    background-color: aliceblue;
+    background-color: #d4e9f5;
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
 
-img {
+.MainMenu img {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(46,177,255,0.74), 0 3px 1px -2px rgba(46,177,255,0.72), 0 1px 5px 0 rgba(46,177,255,0.8);
+    box-shadow: 0 2px 2px 0 rgba(46,177,255,0.74), 0 3px 1px -2px rgba(46,177,255,0.72), 0 1px 5px 0 rgba(46,177,255,0.8);
+    border-radius: 13px;
     width: 180px;
 }
 
@@ -14,4 +19,10 @@ img {
     justify-content: space-around;
     align-items: center;
     margin: 1% 5%;
+}
+
+.MainMenu h1 {
+    font-size: 2.4em;
+    color: #2eb1ff;
+    border-bottom: 1px black solid;
 }
