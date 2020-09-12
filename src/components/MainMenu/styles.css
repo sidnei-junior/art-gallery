@@ -1,5 +1,6 @@
 nav {
-    background-color: #d4e9f5;
+    /* background-color: #d4e9f5; */
+    background-color: #FFF;
     display: flex;
     flex-direction: column;
 
@@ -18,11 +19,54 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 1% 5%;
+    margin: 1% 5% 0 5%;
+    min-height: 50px;
 }
 
 .MainMenu h1 {
-    font-size: 2.4em;
+    font-size: 2em;
     color: #2eb1ff;
-    border-bottom: 1px black solid;
+    border-bottom: 2px #c8c8c8 solid;
+    margin: 1% 0;
+    padding: 0 10% 1% 10%;
+    width: 100%;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.day-selected {
+    border-radius: 15px 15px 0 0;
+    background-color: #2eb1ff;
+    color: #FFF !important;
+}
+
+#divMenu-button {
+    align-items: flex-end;
+}
+
+.div-button {
+    padding: 1%;
+    width: calc(100%/3);
+    text-align: center;
+    color: #2eb1ff;
+    cursor: pointer;
+}
+
+.social-media {
+    padding: 1%;
+    width: calc(100%/3);
+    text-align: center;
+    color: #2eb1ff;
+    display: flex;
+    justify-content: space-around;
 }

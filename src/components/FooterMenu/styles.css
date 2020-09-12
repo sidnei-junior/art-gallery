@@ -10,6 +10,8 @@
 
 .FooterMenu p {
     text-align: justify;
+    text-indent: 2.5em;
+    font-weight: 700;
 }
 
 .FooterDescription {

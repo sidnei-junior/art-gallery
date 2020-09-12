@@ -5,7 +5,7 @@ function FooterMenu() {
     return (
         <div className='FooterMenu'>
             <div className='FooterDescription'>
-                <h1>Museu do Seminário Científico</h1>
+                <h1>IV SEMINÁRIO CIENTÍFICO DE ACARI</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis neque, consectetur non purus eget, pellentesque viverra massa. 
                     Nulla facilisi. Maecenas placerat congue tellus nec aliquet. Proin ipsum sem, scelerisque dignissim posuere at, faucibus sed justo.
@@ -17,7 +17,7 @@ function FooterMenu() {
                 <h1>Contatos</h1>
                 <ul>
                     <li>site</li>
-                    <li>número</li>
+                    <li>email</li>
                     <li>redes sociais</li>
                 </ul>
             </div>
