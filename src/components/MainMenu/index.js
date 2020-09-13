@@ -3,6 +3,7 @@ import { SocialMediaIconsReact } from 'social-media-icons-react';
 
 import './styles.css';
 import logo from './logo.jpeg';
+import { Link } from 'react-router-dom';
 
 function MainMenu({ handleClick }) {
     const handleClickDay = clickComponent => {
@@ -15,6 +16,7 @@ function MainMenu({ handleClick }) {
             document.getElementById('dayOne').classList.remove('day-selected')
         }
         handleClick(clickComponent);
+        console.log(window.location.href);
     }
 
     return (
@@ -32,8 +34,8 @@ function MainMenu({ handleClick }) {
                     <SocialMediaIconsReact borderColor="rgba(255,255,255,1)" borderWidth="2" borderStyle="solid" icon="youtube" iconColor="rgba(46,177,255,1)" backgroundColor="rgba(255,255,255,1)" iconSize="10" roundness="0%" url="https://www.youtube.com/channel/UCYuJ7aXbmopgA69NPPG3FMA" size="20" />
                     <SocialMediaIconsReact borderColor="rgba(255,255,255,1)" borderWidth="2" borderStyle="solid" icon="facebook" iconColor="rgba(46,177,255,1)" backgroundColor="rgba(255,255,255,1)" iconSize="10" roundness="0%" url="https://www.facebook.com/seminariocientificodeacari/" size="20" />
                 </div>
-                <div id="dayOne" onClick={() => handleClickDay('dayOne')} className='div-button day-selected'>Expovirtual: Artes visuais do Seridó</div>
-                <div id='dayTwo' onClick={() => handleClickDay('dayTwo')} className='div-button'>Pássaros do Seridó</div>
+                <Link id="dayOne" to={'/'} onClick={() => handleClickDay('dayOne')} className='div-button day-selected'>Expovirtual: Artes visuais do Seridó</Link>
+                <Link id='dayTwo' to={'/'} onClick={() => handleClickDay('dayTwo')} className='div-button'>Pássaros do Seridó</Link>
             </div>
         </nav>
     )

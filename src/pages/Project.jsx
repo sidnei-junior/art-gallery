@@ -16,7 +16,7 @@ class Project extends React.Component {
         <NavegationBar author={author.author} authorId={idAuthor} art={project.title} artId={idArt} />
         <div className='DescriptionArt'>
           <h1>{project.title}</h1>
-          <img src={`./arts/seridoAuthors/${project.img}`} alt={`Imagem do projeto ${project.title}`} />
+          <img src={`../arts/seridoAuthors/${project.img}`} alt={`Imagem do projeto ${project.title}`} />
           <p>{project.description}</p>
         </div>
       </div>
