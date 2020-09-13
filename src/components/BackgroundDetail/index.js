@@ -8,9 +8,9 @@ import hexagon from './hexagon-complet.png';
 function BackgroundDetail() {
     return (
         <div className='BackgroundDetail'>
-            <img className="leftMedium detail" src={hexagonLeft} />
-            <img className="rightBottom detail" src={hexagon} />
-            <img className="rightTop detail" src={hexagonRight} />
+            <img className="leftMedium detail" src={hexagonLeft} alt='background'/>
+            <img className="rightBottom detail" src={hexagon} alt='background'/>
+            <img className="rightTop detail" src={hexagonRight} alt='background' />
         </div>
     )
 }

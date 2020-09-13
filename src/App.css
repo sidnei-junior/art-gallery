@@ -4,14 +4,33 @@
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
-.Exposure {
+.Home {
   background-color: #d4e9f5;
   display: flex;
-  justify-content: end;
+  flex-direction: column;
+  
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+
+}
+
+.AuthorCards {
+  display: flex;
   flex-wrap: wrap;
+}
+
+.Gallery {
+  background-color: #d4e9f5;
+  display: flex;
+  flex-direction: column;
 
   -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.ArtCards {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 html {

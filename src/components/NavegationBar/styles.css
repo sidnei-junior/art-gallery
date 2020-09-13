@@ -1,0 +1,19 @@
+.NavegationBar {
+    background-color: aliceblue;
+    display: flex;
+    padding: 1%;
+    align-items: center;
+}
+
+.NavegationBar a {
+    margin-right: 1%;
+    text-decoration: none;
+}
+
+.NavegationBar div {
+    margin-right: 1%;
+}
+
+.NavegationBar svg {
+    fill: #2eb1ff;
+}

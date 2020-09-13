@@ -1,15 +1,20 @@
 import React from 'react';
-import ArtCard from '../components/ArtCard';
+import NavegationBar from '../components/NavegationBar';
+import AuthorCard from '../components/AuthorCard';
+
 
 class Home extends React.Component {
   render() {
-     return (
-        <div className='Exposure'>
-          { this.props.projects.map((project, index) => (
-            <ArtCard imgName={project.img} title={project.title} id={index} key={index}/>
-          )) }
+    return (
+      <div className='Home'>
+        <NavegationBar />
+        <div className='AuthorCards'>
+        { this.props.authors.map((author, index) => (
+          <AuthorCard imgName={author.photo} author={author.author} id={index} key={index} />
+        ))}
         </div>
-     )
+      </div>
+    )
   }
 }
 

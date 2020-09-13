@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Route, BrowserRouter } from 'react-router-dom'
 
 import './App.css';
@@ -9,92 +9,31 @@ import EventDescription from './components/EventDescription';
 import BackgroundDetail from './components/BackgroundDetail';
 
 import Home from './pages/Home';
+import Gallery from './pages/Gallery';
 import Project from './pages/Project';
 
+import projects from'./database'
+
 function App() {
-  const day = 'dayOne'
-  const projects = {
-    dayOne: [
-      {
-        img: '1.jpg',
-        title: 'teste',
-        description: "description"
-      },
-      {
-        img: '2.jpg',
-        title: '2',
-        description: "description"
-      },
-      {
-        img: '3.jpg',
-        title: 3,
-        description: "description"
-      },
-      {
-        img: '4.jfif',
-        title: '4',
-        description: "description"
-      },
-      {
-        img: '5.jpg',
-        title: 5,
-        description: "description"
-      },
-      {
-        img: '6.jpg',
-        title: '6',
-        description: "description"
-      },
-      {
-        img: '7.jpg',
-        title: 7,
-        description: "description"
-      },
-      {
-        img: 'img.png',
-        title: '8',
-        description: "description"
-      },
-      {
-        img: 'img.png',
-        title: '9',
-        description: "description"
-      },
-      {
-        img: 'img.png',
-        title: '10',
-        description: "description"
-      },
-      {
-        img: 'img.png',
-        title: '11',
-        description: "description"
-      },
-      {
-        img: 'img.png',
-        title: '12',
-        description: "description"
-      },
-      {
-        img: 'img.png',
-        title: '13',
-        description: "description"
-      },
-    ],
-    dayTwo: []
-  };
+  
+  const handleClick = clickComponent => setDay(clickComponent);
+  const [ day, setDay ] = useState('dayOne');
+
   return (
     <div className='App container'>
       <BrowserRouter>
-        <MainMenu />
+        <MainMenu handleClick={handleClick} />
         <EventDescription />
-        <Route exact path = "/" render={(props) => <Home {...props} projects={projects[day]} />} />
-        <Route path = "/:id" render={(props) => <Project {...props} projects={projects[day]} />} />
+        <Route exact path="/" render={(props) => <Home {...props} authors={projects[day]} />} />
+        <Route exact path="/:idAuthor" render={(props) => <Gallery {...props} projects={projects[day]} />} />
+        <Route path="/:idAuthor/:id" render={(props) => <Project {...props} projects={projects[day]} />} />
         <FooterMenu />
         <BackgroundDetail />
       </BrowserRouter>
     </div>
   );
 }
+
+
 
 export default App;
