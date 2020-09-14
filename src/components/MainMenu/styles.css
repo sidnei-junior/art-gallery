@@ -37,6 +37,9 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    width: 60%;
+    font-size: 0.7em;
 }
 
 .sub-title {
@@ -71,3 +74,33 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+
+
+@media (min-width:576px) {
+    .ArtCard {
+        margin: 1.5% 5%;
+        width: 40%;
+    }
+  }
+  
+  @media (min-width:768px) {
+    #title {
+        width: 60%;
+        font-size: 1em;
+    }
+  }
+  
+  /* @media (min-width:992px) {
+    .ArtCard {
+        margin: 1.5% 2%;
+        width: 21%;
+    }
+  }
+   
+  @media (min-width:1200px) {
+
+    .ArtCard {
+        margin: 1.5%;
+        width: 17%;
+    }
+  } */
