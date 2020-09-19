@@ -7,7 +7,7 @@ function AuthorCard( { imgName, author, id } ) {
         <div className='AuthorCard'>
             
             <Link to={`${id}`}>
-                <img src={`./arts/seridoAuthors/${imgName}`} alt={`Autor: ${author}`}/>
+                <img src={`./arts/${imgName}`} alt={`Autor: ${author}`}/>
                 <h1>{ author }</h1>
             </Link>
         </div>

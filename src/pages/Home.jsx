@@ -2,11 +2,16 @@ import React from 'react';
 import NavegationBar from '../components/NavegationBar';
 import AuthorCard from '../components/AuthorCard';
 
+import EventDescription from '../components/EventDescription';
+
+import { eventDescription } from'../database'
+
 
 class Home extends React.Component {
   render() {
     return (
       <div className='Home'>
+        <EventDescription text={eventDescription.expo} />
         <NavegationBar />
         <div className='AuthorCards'>
         { this.props.authors.map((author, index) => (

@@ -1,6 +1,7 @@
 import React from 'react';
 import ArtCard from '../components/ArtCard';
 import NavegationBar from '../components/NavegationBar';
+import EventDescription from '../components/EventDescription';
 
 
 class Gallery extends React.Component {
@@ -9,6 +10,7 @@ class Gallery extends React.Component {
     const author = this.props.projects[idAuthor];
      return (
         <div className='Gallery'>
+          <EventDescription title={author.author} text={author.description} />
           <NavegationBar author={author.author} authorId={idAuthor} />
           <div className='ArtCards'>
           {author.gallery.map((art, index) => (

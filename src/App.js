@@ -5,7 +5,6 @@ import './App.css';
 
 import MainMenu from './components/MainMenu';
 import FooterMenu from './components/FooterMenu';
-import EventDescription from './components/EventDescription';
 import BackgroundDetail from './components/BackgroundDetail';
 
 import Home from './pages/Home';
@@ -23,7 +22,7 @@ function App() {
     <div className='App container'>
       <BrowserRouter>
         <MainMenu handleClick={handleClick} />
-        <EventDescription />
+        
         <Route exact path="/" render={(props) => <Home {...props} authors={projects[day]} />} />
         <Route exact path="/:idAuthor" render={(props) => <Gallery {...props} projects={projects[day]} />} />
         <Route path="/:idAuthor/:id" render={(props) => <Project {...props} projects={projects[day]} />} />

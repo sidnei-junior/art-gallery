@@ -7,19 +7,8 @@ function FooterMenu() {
             <div className='FooterDescription'>
                 <h1>IV SEMINÁRIO CIENTÍFICO DE ACARI</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis neque, consectetur non purus eget, pellentesque viverra massa. 
-                    Nulla facilisi. Maecenas placerat congue tellus nec aliquet. Proin ipsum sem, scelerisque dignissim posuere at, faucibus sed justo.
-                    Morbi euismod tincidunt convallis. Vivamus sagittis ante ac eros blandit, et hendrerit libero consequat. Nam feugiat vel mauris et iaculis. 
-                    Aliquam erat volutpat. Nulla cursus non felis nec aliquam. Vivamus tempus diam id nunc pellentesque porta.
+                    O Seminário Científico de Acari, em sua IV Edição, será realizado nos dias 24 e 25 de setembro de 2020, de forma gratuita, com transmissão on-line via YouTube e Instagram do evento. Em parceria com a Universidade Federal do Rio Grande do Norte - UFRN/Ceres Currais Novos, o evento foi idealizado para contribuir com a sociedade acariense e seridoense no tocante à apresentação da produção científica na região do Seridó. É um evento que vem acontecendo desde 2017 na cidade de Acari/RN. O Seminário Científico é a concretização de um sonho do seu idealizador, o vereador Girlene Edson de Oliveira Amaro, que aspirava mostrar para a sociedade, inicialmente de Acari, que existia uma produção científica enorme dos seus jovens munícipes nas universidades e nos institutos de ensino superior. Entre os parceiros estão: a UFRN/Currais Novos, a Prefeitura Municipal por meio de algumas secretarias municipais, a Câmara Municipal de Acari e um grupo de jovens voluntários do município de Acari. O evento vem crescendo ano após ano, com estudantes vindo de várias partes do estado para apresentar trabalhos e participar das palestras, oficinas, mesas redondas e outros. Vários profissionais do Campus da UFRN de Currais Novos e do município vêm contribuindo com o evento dando palestras, oficinas e avaliando trabalhos.
                 </p>
-            </div>
-            <div>
-                <h1>Contatos</h1>
-                <ul>
-                    <li>site</li>
-                    <li>email</li>
-                    <li>redes sociais</li>
-                </ul>
             </div>
         </div>
     )
