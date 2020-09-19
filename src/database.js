@@ -26,9 +26,9 @@ const projects = {
           description: 'Material:Raíz de jurema. Dimensão: 116.',
         },
         {
-          title: '<Title>',
+          title: 'Meus Tupinambás',
           img: 'seridoAuthors/6.jpg',
-          description: '<Description>',
+          description: 'Material: Argila',
         }
       ]
     },
@@ -382,7 +382,7 @@ const projects = {
     {
       title: 'Amanhecer enevoado no Gargalheiras.',
       img: 'seridoAuthors/72.JPG',
-      description: 'Tirada em: 06/11/201',
+      description: 'Tirada em: 06/11/2012',
     },
   ]
 },
@@ -413,57 +413,183 @@ const projects = {
     },
   ]
 },
+{
+  author: 'Gorete Lopes',
+  description: 'Nascida em Currais Novos, Gorete Lopes  em 21/09/1953. Filha de lino Lopes de Macedo e Francisca Ferreira de Macedo, começou a trabalhar em tecido aos 14 anos e gosta muito de   desenhar e teve um  grande sonho que realizou de ter sua própria lojinha na sua residência',
+  photo: 'seridoAuthors/78.jpeg',
+  gallery: [
+    {
+      title: 'Galinhas',
+      img: 'seridoAuthors/79.jpeg',
+      description: '-',
+    },
+    {
+      title: 'Tulipas',
+      img: 'seridoAuthors/80.jpeg',
+      description: 'Tamanho: 100x72',
+    },
+    {
+      title: 'Copo de Leite',
+      img: 'seridoAuthors/81.jpeg',
+      description: 'Tamanho: 100x76',
+    },
+    {
+      title: 'O campo de Pinheiro',
+      img: 'seridoAuthors/82.jpeg',
+      description: 'Tamanho: 100x75',
+    },
+    {
+      title: 'Cesta de Gerimum',
+      img: 'seridoAuthors/83.jpeg',
+      description: '-',
+    },
+  ]
+},
   ],
   dayTwo: [
     {
-      img: '4.jfif',
-      title: '4',
-      description: "description"
+      author: 'Getson Luis',
+      description: `Professor de Geografia, Consultor de projetos minerais e de energia, perito avaliador e consultor ambiental, com experiência e conhecimentos na região do Seridó. Trabalho muito bem em equipe e conheço profundamente toda Região do Seridó do Rio Grande do Norte, em especial a fauna, flora e geologia.
+      Conhecedor da fauna e da flora, sendo fotógrafo profissional de natureza, em especial de aves da caatinga.
+      Já são mais de dez anos no estudo dos processos que levam ao avançado processo da Desertificação na Região do Seridó no Rio Grande do Norte e como professor da Rede Estadual de Ensino.
+      Atualmente desenvolvo trabalhos de recuperação de áreas degradadas por e para minerações que atuam na Região, através da implantação de sistemas de gestão ambiental integrados, objetivando minimizar ao máximo os efeitos danosos dessas atividades para o meio ambiente local.
+      Ao longo dos últimos dez anos tive a oportunidade de lecionar durante dois anos no Curso de Geografia da UFRN no CERES/CAICÓ, professor convidado da Faculdade do Seridó, Professor da rede estadual de ensino, consultor para projetos ambientais principalmente na área mineral em várias minerações no Seridó, principalmente em Currais Novos.
+      `,
+      photo: 'birdAuthors/1.jpg',
+      gallery: [
+        {
+          title: 'Arapaçu beija-flor',
+          img: 'birdAuthors/2.jpg',
+          description: 'Campylorhamphus trochilirostris',
+        },
+        {
+          title: 'Beija-flor vermelho',
+          img: 'birdAuthors/3.jpg',
+          description: 'Chrysolampis mosquitus',
+        },
+        {
+          title: ' Bico reto de banda branca',
+          img: 'birdAuthors/4.jpg',
+          description: 'Heliomaster squamosus',
+        },
+        {
+          title: 'Carão',
+          img: 'birdAuthors/5.jpg',
+          description: 'Aramus guarauna',
+        },
+        {
+          title: 'Chifre de ouro',
+          img: 'birdAuthors/6.jpg',
+          description: 'Heliactin bilophus',
+        },
+        {
+          title: 'Choca do nordeste',
+          img: 'birdAuthors/7.jpg',
+          description: 'Sakesphorus cristatus',
+        },
+        {
+          title: 'Frango dágua azul',
+          img: 'birdAuthors/8.jpg',
+          description: 'Porphyrio martinicus',
+        },
+        {
+          title: 'João chique-chique',
+          img: 'birdAuthors/9.jpg',
+          description: 'Synallaxis hellmayri',
+        },
+        {
+          title: 'Piu-piu',
+          img: 'birdAuthors/10.jpg',
+          description: 'Myrmorchilus strigilatus',
+        },
+        {
+          title: 'Tangará',
+          img: 'birdAuthors/11.jpg',
+          description: ' Chiroxiphia caudata',
+        },
+      ]
     },
     {
-      img: '5.jpg',
-      title: 5,
-      description: "description"
-    },
-    {
-      img: '6.jpg',
-      title: '6',
-      description: "description"
-    },
-    {
-      img: '7.jpg',
-      title: 7,
-      description: "description"
-    },
-    {
-      img: 'img.png',
-      title: '8',
-      description: "description"
-    },
-    {
-      img: 'img.png',
-      title: '9',
-      description: "description"
-    },
-    {
-      img: 'img.png',
-      title: '10',
-      description: "description"
-    },
-    {
-      img: 'img.png',
-      title: '11',
-      description: "description"
-    },
-    {
-      img: 'img.png',
-      title: '12',
-      description: "description"
-    },
-    {
-      img: 'img.png',
-      title: '13',
-      description: "description"
+      author: 'Eugênio',
+      description: '-',
+      photo: 'birdAuthors/12.jpg',
+      gallery: [
+        {
+          title: 'Águia-Serrana ou Águia Chilena',
+          img: 'birdAuthors/13.jpg',
+          description: 'Geranoaetus melanoleucus',
+        },
+        {
+          title: 'Alma-de-Gato',
+          img: 'birdAuthors/14.jpg',
+          description: 'Piaya cayana',
+        },
+        {
+          title: 'Azulão Macho',
+          img: 'birdAuthors/15.jpg',
+          description: 'Cyanoloxia brissonii',
+        },
+        {
+          title: 'Beija Flor Vermelho Macho',
+          img: 'birdAuthors/16.jpg',
+          description: 'Chrysolampis mosquitos',
+        },
+        {
+          title: 'Bem Te Vi',
+          img: 'birdAuthors/17.jpg',
+          description: 'Pitangus sulphuratus',
+        },
+        {
+          title: 'Besourinho de Bico Vermelho Macho',
+          img: 'birdAuthors/18.jpg',
+          description: 'Chlorostilbon lucidus',
+        },
+        {
+          title: 'Cambacica ou Sibite',
+          img: 'birdAuthors/19.jpg',
+          description: 'Coereba flaveola',
+        },
+        {
+          title: 'Cardeal do Nordeste ou Galo de Campina',
+          img: 'birdAuthors/20.jpg',
+          description: 'Paroaria dominicana',
+        },
+        {
+          title: 'Choca do Nordeste Macho',
+          img: 'birdAuthors/21.jpg',
+          description: 'Sakesphorus cristatus',
+        },
+        {
+          title: 'Choca-Barrada-do-Nordeste Fêmea',
+          img: 'birdAuthors/22.jpg',
+          description: 'Thamnophilus capistratus',
+        },
+        {
+          title: 'Corrupião ou Concriz',
+          img: 'birdAuthors/23.jpg',
+          description: 'Icterus jamacaii',
+        },
+        {
+          title: 'Coruja-Buraqueira',
+          img: 'birdAuthors/24.jpg',
+          description: 'Athene cunicularia',
+        },
+        {
+          title: 'Encontro ou Pêga',
+          img: 'birdAuthors/25.jpg',
+          description: 'Icterus pyrrhopterus',
+        },
+        {
+          title: 'Fim Fim ou Vem Vem Macho',
+          img: 'birdAuthors/26.jpg',
+          description: 'Euphonia chlorotica',
+        },
+        {
+          title: 'Gavião Carijó ou Gavião Pega Pinto',
+          img: 'birdAuthors/27.jpg',
+          description: 'Rupornis magnirostris',
+        },
+      ]
     },
   ]
 };
@@ -474,41 +600,6 @@ export default projects;
 export const eventDescription = {
   expo: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat at felis in accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam justo turpis, molestie quis sodales tincidunt, facilisis vel est. Duis bibendum finibus placerat. Cras pulvinar neque mauris, sed suscipit orci tempor ut. Sed facilisis arcu ipsum, quis commodo libero suscipit nec. Donec nec nunc ex. Duis sed nisi vel neque iaculis elementum. Donec eget diam ultricies, consequat diam ut, molestie velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tincidunt fermentum felis eu porta.'
 }
-
-
-// {
-//   author: '',
-//   description: '',
-//   photo: '',
-//   gallery: [
-//     {
-//       title: '',
-//       img: '.jpeg',
-//       description: '',
-//     },
-//     {
-//       title: '',
-//       img: '.jpeg',
-//       description: '',
-//     },
-//     {
-//       title: '',
-//       img: '.jpeg',
-//       description: '',
-//     },
-//     {
-//       title: '',
-//       img: '.jpeg',
-//       description: '',
-//     },
-//     {
-//       title: '',
-//       img: '.jpeg',
-//       description: '',
-//     },
-//   ]
-// }
-
 
 
 
