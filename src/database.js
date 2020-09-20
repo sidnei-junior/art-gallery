@@ -1,4 +1,5 @@
 const projects = {
+  dayZero: [],
   dayOne: [
     {
       author: 'Ambrósio Santana',
@@ -598,7 +599,9 @@ export default projects;
 
 
 export const eventDescription = {
-  expo: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat at felis in accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam justo turpis, molestie quis sodales tincidunt, facilisis vel est. Duis bibendum finibus placerat. Cras pulvinar neque mauris, sed suscipit orci tempor ut. Sed facilisis arcu ipsum, quis commodo libero suscipit nec. Donec nec nunc ex. Duis sed nisi vel neque iaculis elementum. Donec eget diam ultricies, consequat diam ut, molestie velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tincidunt fermentum felis eu porta.'
+  dayZero: 'Selecione no menu acima uma das exposições disponíveis e aprecie as obras expostas',
+  dayOne: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat at felis in accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam justo turpis, molestie quis sodales tincidunt, facilisis vel est. Duis bibendum finibus placerat. Cras pulvinar neque mauris, sed suscipit orci tempor ut. Sed facilisis arcu ipsum, quis commodo libero suscipit nec. Donec nec nunc ex. Duis sed nisi vel neque iaculis elementum. Donec eget diam ultricies, consequat diam ut, molestie velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tincidunt fermentum felis eu porta.',
+  dayTwo: 'Pássaros: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat at felis in accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam justo turpis, molestie quis sodales tincidunt, facilisis vel est. Duis bibendum finibus placerat. Cras pulvinar neque mauris, sed suscipit orci tempor ut. Sed facilisis arcu ipsum, quis commodo libero suscipit nec. Donec nec nunc ex. Duis sed nisi vel neque iaculis elementum. Donec eget diam ultricies, consequat diam ut, molestie velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tincidunt fermentum felis eu porta.',
 }
 
 

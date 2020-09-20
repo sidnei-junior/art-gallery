@@ -16,14 +16,14 @@ import projects from'./database'
 function App() {
   
   const handleClick = clickComponent => setDay(clickComponent);
-  const [ day, setDay ] = useState('dayOne');
+  const [ day, setDay ] = useState('dayZero');
 
   return (
     <div className='App container'>
       <BrowserRouter>
         <MainMenu handleClick={handleClick} />
         
-        <Route exact path="/" render={(props) => <Home {...props} authors={projects[day]} />} />
+        <Route exact path="/" render={(props) => <Home {...props} authors={projects[day]} textEvent={day} />} />
         <Route exact path="/:idAuthor" render={(props) => <Gallery {...props} projects={projects[day]} />} />
         <Route path="/:idAuthor/:id" render={(props) => <Project {...props} projects={projects[day]} />} />
         <FooterMenu />

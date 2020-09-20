@@ -8,6 +8,7 @@
 .NavegationBar a {
     margin-right: 1%;
     text-decoration: none;
+    text-align: center;
 }
 
 .NavegationBar div {

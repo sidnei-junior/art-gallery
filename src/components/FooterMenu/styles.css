@@ -12,8 +12,11 @@
     text-align: justify;
     text-indent: 2.5em;
     font-weight: 700;
+    padding: 3%;
+    border-radius: 6px;
+    transition: background-color 2s;
 }
 
-.FooterDescription {
-    margin-right: 80px;
+.FooterMenu p:hover {
+    background-color: rgba(212, 233, 245, 0.6);
 }

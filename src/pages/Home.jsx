@@ -11,7 +11,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className='Home'>
-        <EventDescription text={eventDescription.expo} />
+        <EventDescription text={eventDescription[this.props.textEvent]} />
         <NavegationBar />
         <div className='AuthorCards'>
         { this.props.authors.map((author, index) => (

@@ -58,6 +58,34 @@ nav {
     color: #FFF !important;
 }
 
+.day-lock {
+    color: #c7c7c7 !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.day-unlock {
+    text-align: end !important;
+    padding-right: 24%;
+    font-size: 0.7rem;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+
 #divMenu-button {
     align-items: flex-end;
 }
@@ -90,6 +118,12 @@ nav {
     display: none;
 }
 
+@media (max-width: 1025px) {
+    .day-unlock {
+        padding-right: 19%;
+    }
+}
+
 @media (max-width: 769px) {
     .social-media {
         padding: 1% 1% 1% 2.65%;
@@ -102,6 +136,9 @@ nav {
 
     #sub-title-2 {
         font-size: 1rem;
+    }
+    .day-unlock {
+        padding-right: 5%;
     }
 }
 
@@ -133,5 +170,14 @@ nav {
     }
     #mini-logo {
         display: block;
+    }
+    .day-unlock {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    #dayOne {
+        font-size: 0.85rem;
     }
 }

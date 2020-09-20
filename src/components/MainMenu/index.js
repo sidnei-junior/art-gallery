@@ -20,6 +20,10 @@ function MainMenu({ handleClick }) {
         console.log(window.location.href);
     }
 
+    const unlockExposure = unlockDay => {
+        return new Date().getTime() > new Date(unlockDay).getTime();
+    }
+
     return (
         <nav className="MainMenu">
             <div className='divMenu'>
@@ -37,8 +41,9 @@ function MainMenu({ handleClick }) {
                     <SocialMediaIconsReact borderColor="rgba(255,255,255,1)" borderWidth="2" borderStyle="solid" icon="facebook" iconColor="rgba(46,177,255,1)" backgroundColor="rgba(255,255,255,1)" iconSize="10" roundness="0%" url="https://www.facebook.com/seminariocientificodeacari/" size="20" />
                 </div>
                 <div className='group-div-button'>
-                <Link id="dayOne" to={'/'} onClick={() => handleClickDay('dayOne')} className='div-button day-selected'>Artes visuais do Seridó</Link>
-                <Link id='dayTwo' to={'/'} onClick={() => handleClickDay('dayTwo')} className='div-button'>Pássaros do Seridó</Link>
+                
+                { unlockExposure('21 Sep, 2020') ? <Link id="dayOne" to={'/'} onClick={() => handleClickDay('dayOne')} className='div-button'>Artes visuais do Seridó</Link> : <div id='dayOne' className='div-button day-lock'><span className='day-unlock blink'>21/09/2020</span>Artes visuais do Seridó</div> }
+                { unlockExposure('22 Sep, 2020') ? <Link id='dayTwo' to={'/'} onClick={() => handleClickDay('dayTwo')} className='div-button'>Pássaros do Seridó</Link> : <div id='dayTwo' className='div-button day-lock'><span className='day-unlock blink'>22/09/2020</span>Pássaros do Seridó</div> }
                 </div>
             </div>
         </nav>
