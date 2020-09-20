@@ -3,6 +3,7 @@ import { SocialMediaIconsReact } from 'social-media-icons-react';
 
 import './styles.css';
 import logo from './logo.jpeg';
+import miniLogo from './miniLogo.jpg';
 import { Link } from 'react-router-dom';
 
 function MainMenu({ handleClick }) {
@@ -22,9 +23,10 @@ function MainMenu({ handleClick }) {
     return (
         <nav className="MainMenu">
             <div className='divMenu'>
-                <a href='https://www.even3.com.br/seminario_cientifico_acari/'><img src={logo} alt='logo' /></a>
+            <a id='logo' href='https://www.even3.com.br/seminario_cientifico_acari/'><img src={logo} alt='logo' /></a>
+            <a id='mini-logo' href='https://www.even3.com.br/seminario_cientifico_acari/'><img src={miniLogo} alt='mini-logo' /></a>
                 <div id='title'>
-                    <h1 id='sub-title-1'>IV SEMINÁRIO CIENTÍFICO DE ACARI</h1>
+                    <div id='sub-title-1' className='sub-title'><span>IV SEMINÁRIO</span> <span>CIENTÍFICO DE ACARI</span></div>
                     <div id='sub-title-2' className='sub-title'>Tema: Sustentabilidade e educação patrimonial</div>
                 </div>
             </div>
@@ -34,8 +36,10 @@ function MainMenu({ handleClick }) {
                     <SocialMediaIconsReact borderColor="rgba(255,255,255,1)" borderWidth="2" borderStyle="solid" icon="youtube" iconColor="rgba(46,177,255,1)" backgroundColor="rgba(255,255,255,1)" iconSize="10" roundness="0%" url="https://www.youtube.com/channel/UCYuJ7aXbmopgA69NPPG3FMA" size="20" />
                     <SocialMediaIconsReact borderColor="rgba(255,255,255,1)" borderWidth="2" borderStyle="solid" icon="facebook" iconColor="rgba(46,177,255,1)" backgroundColor="rgba(255,255,255,1)" iconSize="10" roundness="0%" url="https://www.facebook.com/seminariocientificodeacari/" size="20" />
                 </div>
-                <Link id="dayOne" to={'/'} onClick={() => handleClickDay('dayOne')} className='div-button day-selected'>Expovirtual: Artes visuais do Seridó</Link>
+                <div className='group-div-button'>
+                <Link id="dayOne" to={'/'} onClick={() => handleClickDay('dayOne')} className='div-button day-selected'>Artes visuais do Seridó</Link>
                 <Link id='dayTwo' to={'/'} onClick={() => handleClickDay('dayTwo')} className='div-button'>Pássaros do Seridó</Link>
+                </div>
             </div>
         </nav>
     )

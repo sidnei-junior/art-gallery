@@ -322,129 +322,129 @@ const projects = {
         },
       ]
     },
-{
-  author: 'Mizael Manoel da Costa',
-  description: 'Mais conhecido como Mizael, é natural de Caicó, nasceu no dia 12/05/91. Ele é um pintor e desenhista, desenvolveu um pouco mais a sua pintura com um curso que fez com outro pintor da cidade de Caicó, Custódio. Seu tema mais recorrente nas obras é o regional, aquele que retrata o vaqueiro, a vegetação da caatinga, e a época da seca que assola a região. Ele comercializa as suas obras, mas não o faz com tanta freqüência devido a outras ocupações, pois a sua sobrevivência não está diretamente ligada à venda de suas obras, ele possui um emprego e faz o curso de História na UFRN de Caicó, fazendo com que a pintura acabe sendo uma espécie de passatempo.',
-  photo: 'seridoAuthors/61.jpg',
-  gallery: [
     {
-      title: '-',
-      img: 'seridoAuthors/62.jpeg',
-      description: '2011',
+      author: 'Mizael Manoel da Costa',
+      description: 'Mais conhecido como Mizael, é natural de Caicó, nasceu no dia 12/05/91. Ele é um pintor e desenhista, desenvolveu um pouco mais a sua pintura com um curso que fez com outro pintor da cidade de Caicó, Custódio. Seu tema mais recorrente nas obras é o regional, aquele que retrata o vaqueiro, a vegetação da caatinga, e a época da seca que assola a região. Ele comercializa as suas obras, mas não o faz com tanta freqüência devido a outras ocupações, pois a sua sobrevivência não está diretamente ligada à venda de suas obras, ele possui um emprego e faz o curso de História na UFRN de Caicó, fazendo com que a pintura acabe sendo uma espécie de passatempo.',
+      photo: 'seridoAuthors/61.jpg',
+      gallery: [
+        {
+          title: '-',
+          img: 'seridoAuthors/62.jpeg',
+          description: '2011',
+        },
+        {
+          title: '-',
+          img: 'seridoAuthors/63.jpeg',
+          description: '2014',
+        },
+        {
+          title: 'Meu quintal de outrora',
+          img: 'seridoAuthors/64.jpeg',
+          description: '2011',
+        },
+        {
+          title: 'Santana estilizada',
+          img: 'seridoAuthors/65.jpeg',
+          description: '-',
+        },
+        {
+          title: 'Bom dia amigo',
+          img: 'seridoAuthors/66.jpeg',
+          description: '2016',
+        },
+      ]
     },
     {
-      title: '-',
-      img: 'seridoAuthors/63.jpeg',
-      description: '2014',
+      author: 'Ivan Simplício Neto',
+      description: 'Morador do Povoado Gargalheiras, desde sempre, graduando em geografia, começou fotografar em 2009, tendo como temas principais e favoritos a natureza em modo geral e a vivência do homem nordestino com esta.',
+      photo: 'seridoAuthors/67.jpg',
+      gallery: [
+        {
+          title: 'Amanhecer enevoado no Gargalheiras',
+          img: 'seridoAuthors/68.JPG',
+          description: 'Tirada em: 19/04/2020',
+        },
+        {
+          title: 'Senhor José e dona Maria da serra do Abreu',
+          img: 'seridoAuthors/69.JPG',
+          description: 'Tirada em: 25/11/2012',
+        },
+        {
+          title: 'Pega de boi na fazenda pitombeira',
+          img: 'seridoAuthors/70.JPG',
+          description: 'Tirada em: 03/11/2018',
+        },
+        {
+          title: 'Rastro de estrela no poço do saturno',
+          img: 'seridoAuthors/71.JPG',
+          description: 'Tirada em: 05/08/2018',
+        },
+        {
+          title: 'Amanhecer enevoado no Gargalheiras.',
+          img: 'seridoAuthors/72.JPG',
+          description: 'Tirada em: 06/11/2012',
+        },
+      ]
     },
     {
-      title: 'Meu quintal de outrora',
-      img: 'seridoAuthors/64.jpeg',
-      description: '2011',
+      author: 'Rafael Fernandes',
+      description: 'Nasceu em Currais Novos Rn em 1985. A sua formação artística começou em Currais Novos, na adolencência. Entre 2006 e 2008, cursou desenho de observação na Ecóle des Beaux Arts em Paris. Mora na cidade de São Vicente RN desde a adolescencia, atualmente trabalha como tatuador',
+      photo: 'seridoAuthors/73.jpg',
+      gallery: [
+        {
+          title: 'Nas veredas dos sertões',
+          img: 'seridoAuthors/74.jpeg',
+          description: '-',
+        },
+        {
+          title: 'O bebo Chá preto',
+          img: 'seridoAuthors/75.jpeg',
+          description: '-',
+        },
+        {
+          title: 'O pai da terra, amado mestre',
+          img: 'seridoAuthors/76.jpeg',
+          description: '-',
+        },
+        {
+          title: 'Gato Maracajá',
+          img: 'seridoAuthors/77.jpeg',
+          description: '-',
+        },
+      ]
     },
     {
-      title: 'Santana estilizada',
-      img: 'seridoAuthors/65.jpeg',
-      description: '-',
+      author: 'Gorete Lopes',
+      description: 'Nascida em Currais Novos, Gorete Lopes  em 21/09/1953. Filha de lino Lopes de Macedo e Francisca Ferreira de Macedo, começou a trabalhar em tecido aos 14 anos e gosta muito de   desenhar e teve um  grande sonho que realizou de ter sua própria lojinha na sua residência',
+      photo: 'seridoAuthors/78.jpeg',
+      gallery: [
+        {
+          title: 'Galinhas',
+          img: 'seridoAuthors/79.jpeg',
+          description: '-',
+        },
+        {
+          title: 'Tulipas',
+          img: 'seridoAuthors/80.jpeg',
+          description: 'Tamanho: 100x72',
+        },
+        {
+          title: 'Copo de Leite',
+          img: 'seridoAuthors/81.jpeg',
+          description: 'Tamanho: 100x76',
+        },
+        {
+          title: 'O campo de Pinheiro',
+          img: 'seridoAuthors/82.jpeg',
+          description: 'Tamanho: 100x75',
+        },
+        {
+          title: 'Cesta de Gerimum',
+          img: 'seridoAuthors/83.jpeg',
+          description: '-',
+        },
+      ]
     },
-    {
-      title: 'Bom dia amigo',
-      img: 'seridoAuthors/66.jpeg',
-      description: '2016',
-    },
-  ]
-},
-{
-  author: 'Ivan Simplício Neto',
-  description: 'Morador do Povoado Gargalheiras, desde sempre, graduando em geografia, começou fotografar em 2009, tendo como temas principais e favoritos a natureza em modo geral e a vivência do homem nordestino com esta.',
-  photo: 'seridoAuthors/67.jpg',
-  gallery: [
-    {
-      title: 'Amanhecer enevoado no Gargalheiras',
-      img: 'seridoAuthors/68.JPG',
-      description: 'Tirada em: 19/04/2020',
-    },
-    {
-      title: 'Senhor José e dona Maria da serra do Abreu',
-      img: 'seridoAuthors/69.JPG',
-      description: 'Tirada em: 25/11/2012',
-    },
-    {
-      title: 'Pega de boi na fazenda pitombeira',
-      img: 'seridoAuthors/70.JPG',
-      description: 'Tirada em: 03/11/2018',
-    },
-    {
-      title: 'Rastro de estrela no poço do saturno',
-      img: 'seridoAuthors/71.JPG',
-      description: 'Tirada em: 05/08/2018',
-    },
-    {
-      title: 'Amanhecer enevoado no Gargalheiras.',
-      img: 'seridoAuthors/72.JPG',
-      description: 'Tirada em: 06/11/2012',
-    },
-  ]
-},
-{
-  author: 'Rafael Fernandes',
-  description: 'Nasceu em Currais Novos Rn em 1985. A sua formação artística começou em Currais Novos, na adolencência. Entre 2006 e 2008, cursou desenho de observação na Ecóle des Beaux Arts em Paris. Mora na cidade de São Vicente RN desde a adolescencia, atualmente trabalha como tatuador',
-  photo: 'seridoAuthors/73.jpg',
-  gallery: [
-    {
-      title: 'Nas veredas dos sertões',
-      img: 'seridoAuthors/74.jpeg',
-      description: '-',
-    },
-    {
-      title: 'O bebo Chá preto',
-      img: 'seridoAuthors/75.jpeg',
-      description: '-',
-    },
-    {
-      title: 'O pai da terra, amado mestre',
-      img: 'seridoAuthors/76.jpeg',
-      description: '-',
-    },
-    {
-      title: 'Gato Maracajá',
-      img: 'seridoAuthors/77.jpeg',
-      description: '-',
-    },
-  ]
-},
-{
-  author: 'Gorete Lopes',
-  description: 'Nascida em Currais Novos, Gorete Lopes  em 21/09/1953. Filha de lino Lopes de Macedo e Francisca Ferreira de Macedo, começou a trabalhar em tecido aos 14 anos e gosta muito de   desenhar e teve um  grande sonho que realizou de ter sua própria lojinha na sua residência',
-  photo: 'seridoAuthors/78.jpeg',
-  gallery: [
-    {
-      title: 'Galinhas',
-      img: 'seridoAuthors/79.jpeg',
-      description: '-',
-    },
-    {
-      title: 'Tulipas',
-      img: 'seridoAuthors/80.jpeg',
-      description: 'Tamanho: 100x72',
-    },
-    {
-      title: 'Copo de Leite',
-      img: 'seridoAuthors/81.jpeg',
-      description: 'Tamanho: 100x76',
-    },
-    {
-      title: 'O campo de Pinheiro',
-      img: 'seridoAuthors/82.jpeg',
-      description: 'Tamanho: 100x75',
-    },
-    {
-      title: 'Cesta de Gerimum',
-      img: 'seridoAuthors/83.jpeg',
-      description: '-',
-    },
-  ]
-},
   ],
   dayTwo: [
     {

@@ -23,13 +23,21 @@ nav {
     min-height: 50px;
 }
 
-.MainMenu h1 {
+#sub-title-1 {
     font-size: 2em;
     color: #2eb1ff;
     border-bottom: 2px #c8c8c8 solid;
-    margin: 1% 0;
-    padding: 0 10% 1% 10%;
+    font-weight: bold;
+}
+
+#sub-title-2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.sub-title {
     width: 100%;
+    text-align: center;
 }
 
 #title {
@@ -42,10 +50,7 @@ nav {
     font-size: 0.7em;
 }
 
-.sub-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-}
+
 
 .day-selected {
     border-radius: 15px 15px 0 0;
@@ -59,48 +64,74 @@ nav {
 
 .div-button {
     padding: 1%;
-    width: calc(100%/3);
+    width: 50%;
     text-align: center;
     color: #2eb1ff;
     cursor: pointer;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .social-media {
-    padding: 1%;
-    width: calc(100%/3);
+    padding: 1% 1% 1% 4.76%;
     text-align: center;
     color: #2eb1ff;
     display: flex;
     justify-content: space-around;
+    width: 20%;
 }
 
+.group-div-button {
+    display: flex;
+    width: 80%;
+}
 
-@media (min-width:576px) {
-    .ArtCard {
-        margin: 1.5% 5%;
-        width: 40%;
+#mini-logo {
+    display: none;
+}
+
+@media (max-width: 769px) {
+    .social-media {
+        padding: 1% 1% 1% 2.65%;
+        width: 30%
     }
-  }
-  
-  @media (min-width:768px) {
+
+    .group-div-button {
+        width: 70%;
+    }
+
+    #sub-title-2 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .divMenu {
+        flex-direction: column;
+        margin-top: 7%;
+    }
+    .social-media {
+        padding: 3%;
+        width: 80%;
+    }
+    .group-div-button {
+        width: 100%
+    }
+    #divMenu-button {
+        align-items: center;
+    }
+    #sub-title-1 {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
     #title {
-        width: 60%;
-        font-size: 1em;
+        width: 100%;
     }
-  }
-  
-  /* @media (min-width:992px) {
-    .ArtCard {
-        margin: 1.5% 2%;
-        width: 21%;
+    #logo {
+        display: none;
     }
-  }
-   
-  @media (min-width:1200px) {
-
-    .ArtCard {
-        margin: 1.5%;
-        width: 17%;
+    #mini-logo {
+        display: block;
     }
-  } */
+}
