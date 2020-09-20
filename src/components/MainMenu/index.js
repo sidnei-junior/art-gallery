@@ -42,8 +42,8 @@ function MainMenu({ handleClick }) {
                 </div>
                 <div className='group-div-button'>
                 
-                { unlockExposure('21 Sep, 2020') ? <Link id="dayOne" to={'/'} onClick={() => handleClickDay('dayOne')} className='div-button'>Artes visuais do Seridó</Link> : <div id='dayOne' className='div-button day-lock'><span className='day-unlock blink'>21/09/2020</span>Artes visuais do Seridó</div> }
-                { unlockExposure('22 Sep, 2020') ? <Link id='dayTwo' to={'/'} onClick={() => handleClickDay('dayTwo')} className='div-button'>Pássaros do Seridó</Link> : <div id='dayTwo' className='div-button day-lock'><span className='day-unlock blink'>22/09/2020</span>Pássaros do Seridó</div> }
+                { unlockExposure('20 Sep, 2020') ? <Link id="dayOne" to={'/'} onClick={() => handleClickDay('dayOne')} className='div-button'>Artes visuais do Seridó</Link> : <div id='dayOne' className='div-button day-lock'><span className='day-unlock blink'>21/09/2020</span>Artes visuais do Seridó</div> }
+                { unlockExposure('20 Sep, 2020') ? <Link id='dayTwo' to={'/'} onClick={() => handleClickDay('dayTwo')} className='div-button'>Pássaros do Seridó</Link> : <div id='dayTwo' className='div-button day-lock'><span className='day-unlock blink'>22/09/2020</span>Pássaros do Seridó</div> }
                 </div>
             </div>
         </nav>

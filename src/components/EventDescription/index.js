@@ -9,7 +9,7 @@ function EventDescription({ title, text }) {
     return (
         <div className='EventDescription'>
             {title ? <div className='descriptionTitle'> {title} </div> : null}
-            { unlockExposure('21 Sep, 2020') ? <div className='descriptionText'> {text} </div> : <div className='descriptionText'> {TEXT_LOCK} </div>}
+            { unlockExposure('20 Sep, 2020') ? <div className='descriptionText'> {text} </div> : <div className='descriptionText'> {TEXT_LOCK} </div>}
         </div>
     )
 }
