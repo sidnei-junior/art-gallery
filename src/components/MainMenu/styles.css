@@ -24,7 +24,7 @@ nav {
 }
 
 #sub-title-1 {
-    font-size: 2em;
+    font-size: 3em;
     color: #2eb1ff;
     border-bottom: 2px #c8c8c8 solid;
     font-weight: bold;
@@ -122,6 +122,11 @@ nav {
     .day-unlock {
         padding-right: 19%;
     }
+
+    #sub-title-1 {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 769px) {
@@ -158,9 +163,7 @@ nav {
         align-items: center;
     }
     #sub-title-1 {
-        font-size: 1.5rem;
-        display: flex;
-        flex-direction: column;
+        font-size: 2rem;
     }
     #title {
         width: 100%;
