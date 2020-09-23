@@ -3,7 +3,10 @@ const projects = {
   dayOne: [
     {
       author: 'Ambrósio Santana',
-      description: 'Nasceu em Serra de Santana Rio Grande do Norte Brasil, São Vicente',
+      description: `Desceu a serra santana do seridó, sua cidade raiz-berço e partiu em andanças pelo, um artista que ama vida e o futuro,uma persona complexa de espírito desbravador, rico e misterioso, extrovertido e austero em seu trabalho como quem d, uma ponta de mistério, sabe bem das ilimitadas estradas que sua arte vai levar,sua alma passeia com desenvoltura pela magia da vida simples, natural e espirituosa e, pelo domínio vil metal de  sua total obra, obra está desencadeada por sua estética poética e pela postura de sua mística pessoal.
+       De forasteiro a nativo de pipa-paradisiaca vila ao sul do litoral potiguar  atualmente comemora seus 16 anos de vivência, interação,suor e arte em seu ateliê galeria espaço ambrósio sant.ana com uma incessante produção cultural que tem como porto essa praia,ambrósio sant.ana e uma engajado ativista eco cultural,consumidor,propagador e produtor de artes visuais com dotes magistrais de empresariar sua criação artística e seu acervo cultural,  
+        Dinâmica na confecção de obras como pulsante em suas concepções,visões e linguagem de vida e na geração espontânea calculada de suas boas feições energéticas, ele corre todos os riscos de um empreendedor, esperto e desperto se afasta da fogueira das vaidades e,sem dúvida se mostra ao mundo um humano persistente como um vendedor guerreiro que não tem armas,tem arte na qual a diguinidade e o fomentar de cultura são suas glórias, sobre e outras tantas variações de suporte,com multi-cores,traços pincéis, dedos e espátulas ele ambrosianamete escreve e descreve assim a sua história, e este e o seu grito/com beleza a mostra/um grito de toda natureza.
+`,
       photo: 'seridoAuthors/1.jpg',
       gallery: [
         {
@@ -512,7 +515,7 @@ const projects = {
     },
     {
       author: 'Eugênio',
-      description: '-',
+      description: 'Graduado em Fisioterapia pela UFRN. Pós graduado em Fisioterapia em UTI',
       photo: 'birdAuthors/12.jpg',
       gallery: [
         {
@@ -600,8 +603,8 @@ export default projects;
 
 export const eventDescription = {
   dayZero: 'Selecione no menu acima uma das exposições disponíveis e aprecie as obras expostas',
-  dayOne: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat at felis in accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam justo turpis, molestie quis sodales tincidunt, facilisis vel est. Duis bibendum finibus placerat. Cras pulvinar neque mauris, sed suscipit orci tempor ut. Sed facilisis arcu ipsum, quis commodo libero suscipit nec. Donec nec nunc ex. Duis sed nisi vel neque iaculis elementum. Donec eget diam ultricies, consequat diam ut, molestie velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tincidunt fermentum felis eu porta.',
-  dayTwo: 'Pássaros: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat at felis in accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam justo turpis, molestie quis sodales tincidunt, facilisis vel est. Duis bibendum finibus placerat. Cras pulvinar neque mauris, sed suscipit orci tempor ut. Sed facilisis arcu ipsum, quis commodo libero suscipit nec. Donec nec nunc ex. Duis sed nisi vel neque iaculis elementum. Donec eget diam ultricies, consequat diam ut, molestie velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tincidunt fermentum felis eu porta.',
+  dayOne: 'O Seridó é referencia quando se fala em artistas, pessoas criativas que parecem ter herdado de seus descendentes indígenas, afros e portugueses a criatividade e a capacidade de criar coisas que encantam. Panelas de barro, objetos de palha e couro foram os primeiros materiais a serem usados para criar peças que são utilitários e também que decoram, hoje são muito valorizadas como artesanato ou obras de arte. “O conceito de arte visual está intimamente relacionado ao conceito de visualizar - “ver” - e por isso, engloba as artes em que a fruição ocorre por meio da visão”. Procuramos reunir nesta exposição virtual alguns artistas do Seridó, para que os mesmos tenham visibilidade e que as suas artes sejam reconhecidas e valorizadas.',
+  dayTwo: 'A caatinga é um bioma exclusivamente brasileiro que predomina na região nordeste estando inserida no contexto do clima do semiárido, presente  na região Seridó. Algumas vezes, por apresentar um ambiente seco, aparentemente pobre, com chão rachado, solo pedregoso, onde a maioria das plantas perdem as folhas, prevalecendo uma paisagem mais clara e esbranquiçada, muitos não imaginam como esse mesmo bioma é rico em biodiversidade. “Mata ou floresta branca”, a caatinga é um bioma que precisa de cuidados e preservação, principalmente em período de seca, pois quando começam as chuvas o ambiente é totalmente transformado. Na nossa região do Seridó as fotografias expressam claramente a riqueza desse bioma, a avifauna é uma delas. Sendo assim,  nesta exposição virtual mostraremos o trabalho de dois profissionais inseridos no levantamento desses seres tão importantes para a biodiversidade da caatinga. A exuberância das imagens retratam um magnífico trabalho de conscientização ambiental voltado para o conhecimento da avifauna local. Nesta exposição virtual serão expostos apenas alguns dos seus trabalhos, que passam de mais de 100 espécies registradas, o que demonstra a resistência desse ambiente tão propício à desertificação e atividades degradantes do meio ambiente, como por exemplo, a caça e o tráfico de animais, muito comuns no Seridó.',
 }
 
 

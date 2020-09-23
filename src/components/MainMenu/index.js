@@ -36,14 +36,14 @@ function MainMenu({ handleClick }) {
             </div>
             <div id='divMenu-button' className='divMenu'>
                 <div className='social-media'>
-                    <SocialMediaIconsReact borderColor="rgba(255,255,255,1)" borderWidth="2" borderStyle="solid" icon="instagram" iconColor="rgba(46,177,255,1)" backgroundColor="rgba(255,255,255,1)" iconSize="10" roundness="0%" url="https://instagram.com/seminariocientificodeacari" size="20" />
+                    <SocialMediaIconsReact borderColor="rgba(255,255,255,1)" borderWidth="2" borderStyle="solid" icon="instagram" iconColor="rgba(46,177,255,1)" backgroundColor="rgba(255,255,255,1)" iconSize="10" roundness="0%" url="https://www.instagram.com/seciacari/?hl=pt-br" size="20" />
                     <SocialMediaIconsReact borderColor="rgba(255,255,255,1)" borderWidth="2" borderStyle="solid" icon="youtube" iconColor="rgba(46,177,255,1)" backgroundColor="rgba(255,255,255,1)" iconSize="10" roundness="0%" url="https://www.youtube.com/channel/UCYuJ7aXbmopgA69NPPG3FMA" size="20" />
                     <SocialMediaIconsReact borderColor="rgba(255,255,255,1)" borderWidth="2" borderStyle="solid" icon="facebook" iconColor="rgba(46,177,255,1)" backgroundColor="rgba(255,255,255,1)" iconSize="10" roundness="0%" url="https://www.facebook.com/seminariocientificodeacari/" size="20" />
                 </div>
                 <div className='group-div-button'>
                 
-                { unlockExposure('21 Sep, 2020') ? <Link id="dayOne" to={'/'} onClick={() => handleClickDay('dayOne')} className='div-button'>Artes visuais do Seridó</Link> : <div id='dayOne' className='div-button day-lock'><span className='day-unlock blink'>21/09/2020</span>Artes visuais do Seridó</div> }
-                { unlockExposure('22 Sep, 2020') ? <Link id='dayTwo' to={'/'} onClick={() => handleClickDay('dayTwo')} className='div-button'>Pássaros do Seridó</Link> : <div id='dayTwo' className='div-button day-lock'><span className='day-unlock blink'>22/09/2020</span>Pássaros do Seridó</div> }
+                { unlockExposure('24 Sep, 2020') ? <Link id="dayOne" to={'/'} onClick={() => handleClickDay('dayOne')} className='div-button'>Artes visuais do Seridó</Link> : <div id='dayOne' className='div-button day-lock'><span className='day-unlock blink'>24/09/2020</span>Artes visuais do Seridó</div> }
+                { unlockExposure('25 Sep, 2020') ? <Link id='dayTwo' to={'/'} onClick={() => handleClickDay('dayTwo')} className='div-button'>Pássaros do Seridó</Link> : <div id='dayTwo' className='div-button day-lock'><span className='day-unlock blink'>25/09/2020</span>Pássaros do Seridó</div> }
                 </div>
             </div>
         </nav>
