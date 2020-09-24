@@ -232,7 +232,9 @@ const projects = {
     },
     {
       author: 'Jozinaldo (Aranha)',
-      description: 'Jozinaldo da Silva Julião (Aranha) - Currais Novos/RN',
+      description: `Jozinaldo da Silva Julião nasceu em São Tomé - RN, no dia 10 de Setembro de 1975, foi camponês, jardineiro, garçon, Auxiliar de Serviços Gerais (ASG) e atualmente é atleta e porteiro. É filho de José Julião Sobrinho e Damiana Soares da Silva. Casado com Leilane Karoline Araújo Brilhante e pai de Samuel Davi Brilhante Julião, desde então mora no município de Currais Novos - RN.
+      Jozinaldo da Silva Julião é prestador de serviços no IFRN desde 1995 quando ainda se chamava ETFRN (transformada em  CEFET até 2010) em Natal, e a partir de 2008 foi transferido para o Campus de Currais Novos onde trabalha como porteiro até hoje. 
+     . Aprendeu a fazer Arte em latonagem quando trabalhava de (ASG) em Natal – RN. Observando o Artesão Francisco Callado, enquanto limpava a sala dele. A partir desse contato, pouco a pouco, foi aprendendo aquela arte e quando tinha alguma dúvida, perguntava ao seu mestre. Em Dezembro de 2007, fez uma doação de uma de suas obras em benefício ao GACC (Grupo de Apoio a Criança com Câncer, Natal-RN), sendo essa obra presenteada pelo o GACC à cantora Cláudia Leite. Nessa época, começou a se dedicar as artes de forma mais comercial. Daí em diante, passou a fazer peças, também, por encomenda. Somente em 2009, o artesanato de ARANHA começou ficar conhecido, graças as ações solidárias que contribuíram para gerar uma grande divulgação de seus trabalhos.`,
       photo: 'seridoAuthors/43.jpg',
       gallery: [
         {
