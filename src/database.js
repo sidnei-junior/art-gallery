@@ -3,10 +3,15 @@ const projects = {
   dayOne: [
     {
       author: 'Ambrósio Santana',
-      description: `Desceu a serra santana do seridó, sua cidade raiz-berço e partiu em andanças pelo, um artista que ama vida e o futuro,uma persona complexa de espírito desbravador, rico e misterioso, extrovertido e austero em seu trabalho como quem d, uma ponta de mistério, sabe bem das ilimitadas estradas que sua arte vai levar,sua alma passeia com desenvoltura pela magia da vida simples, natural e espirituosa e, pelo domínio vil metal de  sua total obra, obra está desencadeada por sua estética poética e pela postura de sua mística pessoal.
-       De forasteiro a nativo de pipa-paradisiaca vila ao sul do litoral potiguar  atualmente comemora seus 16 anos de vivência, interação,suor e arte em seu ateliê galeria espaço ambrósio sant.ana com uma incessante produção cultural que tem como porto essa praia,ambrósio sant.ana e uma engajado ativista eco cultural,consumidor,propagador e produtor de artes visuais com dotes magistrais de empresariar sua criação artística e seu acervo cultural,  
-        Dinâmica na confecção de obras como pulsante em suas concepções,visões e linguagem de vida e na geração espontânea calculada de suas boas feições energéticas, ele corre todos os riscos de um empreendedor, esperto e desperto se afasta da fogueira das vaidades e,sem dúvida se mostra ao mundo um humano persistente como um vendedor guerreiro que não tem armas,tem arte na qual a diguinidade e o fomentar de cultura são suas glórias, sobre e outras tantas variações de suporte,com multi-cores,traços pincéis, dedos e espátulas ele ambrosianamete escreve e descreve assim a sua história, e este e o seu grito/com beleza a mostra/um grito de toda natureza.
-`,
+      description: `ARTISTA DA TERRA ARTISTA DO SERIDÓ NORDESTE RIO GRANDE DO NORTE BRASIL 
+      NORDESTE
+
+DESCEU A SERRA SANTANA DO SERIDÓ, SUA CIDADE RAIZ-BERÇO E PARTIU EM ANDANÇAS PELO, UM ARTISTA QUE AMA VIDA E O FUTURO,UMA PERSONA COMPLEXA DE ESPÍRITO DESBRAVADOR, RICO E MISTERIOSO,,, EXTROVERTIDO E AUSTERO EM SEU TRABALHO COMO QUEM D, UMA PONTA DE MISTÉRIO, SABE BEM DAS ILIMITADAS ESTRADAS QUE SUA ARTE VAI LEVAR,SUA ALMA PASSEIA COM DESENVOLTURA PELA MAGIA DA VIDA SIMPLES, NATURAL E ESPIRITUOSA E, PELO DOMÍNIO VIL METAL DE  SUA TOTAL OBRA, OBRA ESTÁ DESENCADEADA POR SUA ESTÉTICA POÉTICA E PELA POSTURA DE SUA MÍSTICA PESSOAL.
+DE FORASTEIRO A NATIVO DE PIPA-PARADISIACA VILA AO SUL DO LITORAL POTIGUAR  ATUALMENTE COMEMORA SEUS 16 ANOS DE VIVÊNCIA, INTERAÇÃO,SUOR E ARTE EM SEU ATELIÊ GALERIA ESPAÇO Ambrósio Sant.ana com uma incessante produção cultural que tem como Porto essa praia,Ambrósio Sant.ana e uma enganado ativista ECO CULTURAL,consumidor,propagador e produtor de artes visuais com dotes magistrais de empresariar sua criação artística e seu acervo cultural,  
+Dinâmica na confecção de obras como pulsante em suas concepções,visões e linguagem de vida e na geração espontânea calculada de suas boas feições energéticas, ele corre todos os riscos de um empreendedor, esperto edesperto se afasta da fogueira das vaidades e,sem dúvida se mostra ao mundo um humano persistente como um vendedor guerreiro que não tem armas,tem arte na qual a diguinidade e o fomentar de cultura são suas glórias, sobre e outras tantas variações de suporte,com multi-cores,traços pincéis, dedos e espátulas ele Ambrosianamete escreve e descreve assim a sua história, e este e o seu grito/com beleza a mostra/um grito de toda NATUREZA. 
+Pipa 1994.
+Civone Maria de Medeiros 
+#produtora. Multimídia Internacional.`,
       photo: 'seridoAuthors/1.jpg',
       gallery: [
         {
